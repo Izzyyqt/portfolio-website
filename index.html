@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazper Portfolio Website</title>
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    <div class="custome-cursor"></div>
+    <div class="loadBg">
+        <h1 style="animation: fadeIn 3s ease-in;">Wel<span style="color: #27BD23;">come!</span></h1>
+    </div>
+    <div class="wrapper">
+        <div class="hero">
+            <div id="navbar">
+                <ul>
+                    <li><a href="#heroContent"><span style="color: #27BD23;">&lt;</span>Home<span style="color: #27BD23;">&gt;</span></a></li>
+                    <li><a href="#works"><span style="color: #27BD23;">&lt;</span>Works<span style="color: #27BD23;">&gt;</span></a></li>
+                    <li><a href="#about"><span style="color: #27BD23;">&lt;</span>About<span style="color: #27BD23;">&gt;</span></a></li>
+                    <li><a href="#contacts"><span style="color: #27BD23;">&lt;</span>Contacts<span style="color: #27BD23;">&gt;</span></a></li>
+                </ul>
+            </div>            
+            <div id="heroContent">
+                <h1 id="headText"><span style="color: #27BD23;">&lt;/</span>Jazper <span style="color: #27BD23;">Zuñiga&gt;</span></h1>
+                <div id="myPicture">
+                </div>
+                <p id="introduction"><span style="color: #27BD23;">&lt;/</span>Hello, I'm Jazper Zuñiga, a passionate individual on the journey to becoming a skilled Web Developer. Join me in my digital playground as I create meaningful and innovative web experiences.
+                    <span style="color: #27BD23;">&gt;</span>
+                </p>
+            </div>
+            <a href="https://maps.app.goo.gl/NwtBYnuMnYwtpunZ6" target="_blank" id="loctn"><img id="location-img" src="location.png">Lucena City, Quezon</a>
+        </div>
+        <div class="works" id="works">
+            <h1 style="text-align: center;"><span style="color: #27BD23;">&lt;/</span>Works<span style="color: #27BD23;">&gt;</span></h1>
+            <div class="prjcts js-tilt" id="prj1" onclick="openLinkInNewTab('https://izzyyqt.github.io/Working-Calculator/')">
+                <div class="tlbg">
+                    <h2>Calculator</h2><div class="line"></div><h3>00</h3>
+                </div>
+            </div>
+            <div class="prjcts js-tilt" id="prj2" onclick="openLinkInNewTab('https://izzyyqt.github.io/zuniga-landing-page/')">
+                <div class="tlbg">
+                    <h2>Landing Page</h2><div class="line"></div><h3>01</h3>
+                </div>
+            </div>
+            <div class="prjcts js-tilt" id="prj3" onclick="openLinkInNewTab('https://izzyyqt.github.io/quiz-app/')">
+                <div class="tlbg">
+                    <h2>Quiz App</h2><div class="line"></div><h3>02</h3>
+                </div>
+            </div>
+            <div class="prjcts js-tilt" id="prj4" onclick="openLinkInNewTab('https://izzyyqt.github.io/Todo-List-App/')">
+                <div class="tlbg">
+                    <h2>To-do List</h2><div class="line"></div><h3>03</h3>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <h1 style="text-align: center;"><span style="color: #27BD23;">&lt;/</span>About<span style="color: #27BD23;">&gt;</span></h1>
+            <div class="infos">
+                <p><span style="color: #322EDD;">let</span> <span style="color: #ED2626;">Jazper Zuñiga</span> <span style="color: white;">= &#123;</span></p>
+                <p><span style="color: #D13D3D;">fullName</span><span style="color: white;">:</span> <span style="color: #27BD23;">&apos;Jazper Miles S. Zuñiga&apos;</span><span style="color: white;">;</span></p>
+                <p><span style="color: #D13D3D;">dateOfBirth</span><span style="color: white;">:</span> <span style="color: #27BD23;">&apos;December, 30, 2002&apos;</span><span style="color: white;">;</span></p>
+                <p><span style="color: #D13D3D;">email</span><span style="color: white;">:</span> <span style="color: #27BD23;">&apos;jazperzuniga1239@gmail.com&apos;</span><span style="color: white;">;</span></p>
+                <p><span style="color: white;">&#125;;</span></p>
+                <p><span style="color: #322EDD;">const</span> <span style="color: #ED2626;">education</span> <span style="color: white;">= () => &#123;</span></p>
+                <p><span style="color: #D13D3D;">return</span> <span style="color: white;">[</span></p>
+                <p><span style="color: white;">&#123;</span> <span style="color: #27BD23;">&apos;2013-2015&apos;: &apos;Bocohan Elementary School&apos;</span><span style="color: white;">&#125;</span></p>
+                <p><span style="color: white;">&#123;</span> <span style="color: #27BD23;">&apos;2015-2019&apos;: &apos;Quezon National High School&apos;</span><span style="color: white;">&#125;</span></p>
+                <p><span style="color: white;">&#123;</span> <span style="color: #27BD23;">&apos;2019-2021&apos;: &apos;College of Sciences, Technology and Communication inc.&apos;</span><span style="color: white;">&#125;</span></p>
+                <p><span style="color: white;">&#123;</span> <span style="color: #27BD23;">&apos;2021-now&apos;: &apos;Dalubhasaan ng Lungsod ng Lucena&apos;</span><span style="color: white;">&#125;</span></p>
+                <p><span style="color: white;">];</span></p>
+                <p><span style="color: white;">&#125;;</span></p>
+                <p><span style="color: #322EDD;">const</span> <span style="color: #ED2626;">skills</span> <span style="color: white;">= () => &#123;</span></p>
+                <p><span style="color: #D13D3D;">return</span> <span style="color: white;">[</span> <span style="color: #27BD23;">&apos;Javascript&apos;, &apos;ReactJs&apos;, &apos;Tailwind CSS&apos;, &apos;HTML/CSS&apos;, &apos;Python&apos;, &apos;PostgreSQL&apos;, &apos;UX/UI&apos;, &apos;Drawing&apos;, &apos;Digital Arts&apos;,</span> <span id="blinking" style="color: white;">I</span><span style="color: white;">];</span></p>
+                <p><span style="color: white;">&#125;;</span></p>
+            </div>
+        </div>
+        <div class="contacts" id="contacts">
+            <h1 style="text-align: center;"><span style="color: #27BD23;">&lt;/</span>Contacts<span style="color: #27BD23;">&gt;</span></h1>
+            <h3 style="width: 80vw;">Check me on:</h3>
+            <div class="socials">
+                <div class="socials-content">
+                    <div class="mySocials"><img src="fb.png" style="width: 30px; height: 30px; margin-right: 10px;"> <a href="https://www.facebook.com/jazper.miles.3/" target="_blank">Jazper Zuñiga</a></div>
+                    <div class="mySocials"><img src="gm.png" style="width: 30px; height: 30px; margin-right: 10px;"> jazperzuniga1230@gmail.com</div>
+                    <div class="mySocials"><img src="phone.png" style="width: 30px; height: 30px; margin-right: 10px;"> 09169101517</div>
+                    <div class="mySocials"><img src="github.png" style="width: 30px; height: 30px; margin-right: 10px;"> <a href="https://github.com/Izzyyqt?tab=repositories" target="_blank">Izzyqt</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+</body>
+</html>
